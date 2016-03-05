@@ -1,0 +1,6 @@
+C:\Users\Bruno\Desktop\JDC 2016\Poser des tests sur code fermé aux tests\05 RentalMovies\RentalMovies\bin\Release\RentalMovies.dll.config
+C:\Users\Bruno\Desktop\JDC 2016\Poser des tests sur code fermé aux tests\05 RentalMovies\RentalMovies\bin\Release\RentalMovies.dll
+C:\Users\Bruno\Desktop\JDC 2016\Poser des tests sur code fermé aux tests\05 RentalMovies\RentalMovies\bin\Release\RentalMovies.pdb
+C:\Users\Bruno\Desktop\JDC 2016\Poser des tests sur code fermé aux tests\05 RentalMovies\RentalMovies\obj\Release\RentalMovies.csprojResolveAssemblyReference.cache
+C:\Users\Bruno\Desktop\JDC 2016\Poser des tests sur code fermé aux tests\05 RentalMovies\RentalMovies\obj\Release\RentalMovies.dll
+C:\Users\Bruno\Desktop\JDC 2016\Poser des tests sur code fermé aux tests\05 RentalMovies\RentalMovies\obj\Release\RentalMovies.pdb
