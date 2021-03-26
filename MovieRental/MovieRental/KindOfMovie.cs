@@ -1,4 +1,4 @@
-﻿namespace RentalMovies
+﻿namespace MovieRental.MovieRental
 {
     public enum KindOfMovie
     {
