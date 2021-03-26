@@ -9,3 +9,15 @@ C:\Users\Bruno\Desktop\JDC 2016\Poser des tests sur code fermé aux tests\05 Ren
 C:\Users\Bruno\Desktop\JDC 2016\Poser des tests sur code fermé aux tests\05 RentalMovies\RentalMoviesTest\bin\Release\nunit.framework.xml
 C:\Users\Bruno\Desktop\JDC 2016\Poser des tests sur code fermé aux tests\05 RentalMovies\RentalMoviesTest\obj\Release\RentalMoviesTest.dll
 C:\Users\Bruno\Desktop\JDC 2016\Poser des tests sur code fermé aux tests\05 RentalMovies\RentalMoviesTest\obj\Release\RentalMoviesTest.pdb
+C:\Dev\formations\formations\formations CAPFI 2020-2021\Formation CAPFI Refactoring 30 & 31 mars 2021\Day 1\livecoding\RentalMovies\RentalMoviesTest\bin\Release\RentalMoviesTest.dll
+C:\Dev\formations\formations\formations CAPFI 2020-2021\Formation CAPFI Refactoring 30 & 31 mars 2021\Day 1\livecoding\RentalMovies\RentalMoviesTest\bin\Release\RentalMoviesTest.pdb
+C:\Dev\formations\formations\formations CAPFI 2020-2021\Formation CAPFI Refactoring 30 & 31 mars 2021\Day 1\livecoding\RentalMovies\RentalMoviesTest\bin\Release\RentalMovies.dll
+C:\Dev\formations\formations\formations CAPFI 2020-2021\Formation CAPFI Refactoring 30 & 31 mars 2021\Day 1\livecoding\RentalMovies\RentalMoviesTest\bin\Release\RentalMovies.pdb
+C:\Dev\formations\formations\formations CAPFI 2020-2021\Formation CAPFI Refactoring 30 & 31 mars 2021\Day 1\livecoding\RentalMovies\RentalMoviesTest\bin\Release\RentalMovies.dll.config
+C:\Dev\formations\formations\formations CAPFI 2020-2021\Formation CAPFI Refactoring 30 & 31 mars 2021\Day 1\livecoding\RentalMovies\RentalMoviesTest\bin\Release\NFluent.xml
+C:\Dev\formations\formations\formations CAPFI 2020-2021\Formation CAPFI Refactoring 30 & 31 mars 2021\Day 1\livecoding\RentalMovies\RentalMoviesTest\bin\Release\nunit.framework.xml
+C:\Dev\formations\formations\formations CAPFI 2020-2021\Formation CAPFI Refactoring 30 & 31 mars 2021\Day 1\livecoding\RentalMovies\RentalMoviesTest\obj\Release\RentalMoviesTest.csprojAssemblyReference.cache
+C:\Dev\formations\formations\formations CAPFI 2020-2021\Formation CAPFI Refactoring 30 & 31 mars 2021\Day 1\livecoding\RentalMovies\RentalMoviesTest\obj\Release\RentalMoviesTest.csproj.CoreCompileInputs.cache
+C:\Dev\formations\formations\formations CAPFI 2020-2021\Formation CAPFI Refactoring 30 & 31 mars 2021\Day 1\livecoding\RentalMovies\RentalMoviesTest\obj\Release\RentalMoviesTest.csproj.CopyComplete
+C:\Dev\formations\formations\formations CAPFI 2020-2021\Formation CAPFI Refactoring 30 & 31 mars 2021\Day 1\livecoding\RentalMovies\RentalMoviesTest\obj\Release\RentalMoviesTest.dll
+C:\Dev\formations\formations\formations CAPFI 2020-2021\Formation CAPFI Refactoring 30 & 31 mars 2021\Day 1\livecoding\RentalMovies\RentalMoviesTest\obj\Release\RentalMoviesTest.pdb

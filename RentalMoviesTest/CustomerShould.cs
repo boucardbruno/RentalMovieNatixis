@@ -4,10 +4,10 @@ using RentalMovies;
 using static System.String;
 namespace RentalMoviesTest
 {
-    public static class CustomerTests
+    public static class CustomerShould
     {
         [TestCase("Guest", 0)]
-        public static void Should_return_Statement_when_no_rental(string customerName, int amount)
+        public static void Return_Statement_when_no_rental(string customerName, int amount)
         {
             var customer = new Customer(customerName);
 
@@ -16,7 +16,7 @@ namespace RentalMoviesTest
         }
 
         [TestCase("Dracula Untold", "Thomas", 2)]
-        public static void Should_return_Statement_when_rental_of_one_regular_movie_during_less_than_2_days(string movieName, string customerName, double amount)
+        public static void Return_Statement_when_rental_of_one_regular_movie_during_less_than_2_days(string movieName, string customerName, double amount)
         {
             var customer = MakeCustomerWithRental(movieName, KindOfMovie.Regular, 1, customerName);
 
@@ -25,7 +25,7 @@ namespace RentalMoviesTest
         }
 
         [TestCase("Dracula Untold", "Rui", 3.5)]
-        public static void Should_return_Statement_when_rental_of_one_regular_movie_during_more_than_2_days(string movieName, string customerName, double amount)
+        public static void Return_Statement_when_rental_of_one_regular_movie_during_more_than_2_days(string movieName, string customerName, double amount)
         {
             var customer = MakeCustomerWithRental(movieName, KindOfMovie.Regular, 3, customerName);
 
@@ -34,7 +34,7 @@ namespace RentalMoviesTest
         }
 
         [TestCase("Dracula Untold", "Arnauld", 6)]
-        public static void Should_return_Statement_when_rental_of_one_new_release_movie_during_more_than_one_day(string movieName, string customerName, double amount)
+        public static void Return_Statement_when_rental_of_one_new_release_movie_during_more_than_one_day(string movieName, string customerName, double amount)
         {
             var customer = MakeCustomerWithRental(movieName, KindOfMovie.NewRelease, 2, customerName);
 
@@ -43,7 +43,7 @@ namespace RentalMoviesTest
         }
 
         [TestCase("Dracula Untold", "Bruno", 3)]
-        public static void Should_return_Statement_when_rental_of_one_new_release_movie_during_less_than_one_day(string movieName, string customerName, double amount)
+        public static void Return_Statement_when_rental_of_one_new_release_movie_during_less_than_one_day(string movieName, string customerName, double amount)
         {
             var customer = MakeCustomerWithRental(movieName, KindOfMovie.NewRelease, 1, customerName);
 
@@ -52,7 +52,7 @@ namespace RentalMoviesTest
         }
 
         [Test]
-        public static void Should_return_Statement_when_rental_of_one_children_movie_during_less_than_3_days()
+        public static void Return_Statement_when_rental_of_one_children_movie_during_less_than_3_days()
         {
             const string movieName = "The Amazing Spider-Man";
             const string customerName = "Bruno";
@@ -63,7 +63,7 @@ namespace RentalMoviesTest
         }
 
         [Test]
-        public static void Should_return_Statement_when_rental_of_one_children_movie_during_more_than_3_days()
+        public static void Return_Statement_when_rental_of_one_children_movie_during_more_than_3_days()
         {
             const string movieName = "The Amazing Spider-Man";
             const string customerName = "Bruno";
@@ -75,7 +75,7 @@ namespace RentalMoviesTest
         }
 
         [Test]
-        public static void Should_return_Statement_when_multiple_rentals()
+        public static void Return_Statement_when_multiple_rentals()
         {
             var movie1 = "The Amazing Spider-Man";
             var movie2 = "Pride";
