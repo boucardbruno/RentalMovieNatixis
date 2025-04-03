@@ -1,6 +1,7 @@
 ﻿using MovieRental.MovieRental;
 using NFluent;
 using NUnit.Framework;
+using RentalMovies;
 
 namespace MovieRentalTest
 {

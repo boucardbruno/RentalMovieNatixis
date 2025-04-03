@@ -1,4 +1,6 @@
-﻿namespace MovieRental.MovieRental
+﻿using System;
+
+namespace RentalMovies
 {
     public class Movie
     {

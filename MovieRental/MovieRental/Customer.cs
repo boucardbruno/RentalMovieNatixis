@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MovieRental.MovieRental
+namespace RentalMovies
 {
     public sealed class Customer
     {
