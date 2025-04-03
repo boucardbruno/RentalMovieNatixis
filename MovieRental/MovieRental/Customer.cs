@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using RentalMovies;
 
-namespace RentalMovies
+namespace MovieRental.MovieRental
 {
     public sealed class Customer
     {
@@ -47,7 +48,7 @@ namespace RentalMovies
                 }
                 // add frequent renter points
                 frequentRenterPoints ++;
-                // add bonus for a two day new release rental
+                // add bonus for a two days new release rental
                 if ((each.Movie.KindOfMovie == KindOfMovie.NewRelease) &&
                     each.DaysRented> 1) frequentRenterPoints ++;
                 //show figures for this rental
