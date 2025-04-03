@@ -1,17 +1,20 @@
 ﻿using System.Collections.Generic;
-using RentalMovies;
 
-namespace MovieRental.MovieRental
+namespace MovieRental
 {
-    public sealed class Customer
+    public class Customer
     {
-        public string Name { get; }
-
+        private readonly string _name;
         private readonly List<Rental> _rentals = new List<Rental>();
 
         public Customer(string name)
         {
-            Name = name;
+            _name = name;
+        }
+
+        public string Name
+        {
+            get { return _name; }
         }
 
         public void AddRental(Rental arg)
@@ -22,35 +25,36 @@ namespace MovieRental.MovieRental
         public string Statement()
         {
             double totalAmount = 0;
-            int frequentRenterPoints = 0;
+            var frequentRenterPoints = 0;
 
-            string result = "Rental Record for " + Name + "\n";
+            var result = "Rental Record for " + Name + "\n";
             foreach (var each in _rentals)
             {
-                double thisAmount = 0;
+                double amount = 0;
 
                 //determine amounts for each line
-                switch (each.Movie.KindOfMovie)
+                switch (each.Movie.PriceCode)
                 {
                     case KindOfMovie.Regular:
-                        thisAmount += 2;
+                        amount += 2;
                         if (each.DaysRented > 2)
-                            thisAmount += (each.DaysRented - 2)*1.5;
+                            amount += (each.DaysRented - 2)*1.5;
                         break;
                     case KindOfMovie.NewRelease:
-                        thisAmount += each.DaysRented*3;
+                        amount += each.DaysRented*3;
                         break;
                     case KindOfMovie.Children:
-                        thisAmount += 1.5;
+                        amount += 1.5;
                         if (each.DaysRented > 3)
-                            thisAmount += (each.DaysRented - 3)*1.5;
+                            amount += (each.DaysRented - 3)*1.5;
                         break;
                 }
+                var thisAmount = amount;
                 // add frequent renter points
                 frequentRenterPoints ++;
-                // add bonus for a two days new release rental
-                if ((each.Movie.KindOfMovie == KindOfMovie.NewRelease) &&
-                    each.DaysRented> 1) frequentRenterPoints ++;
+                // add bonus for a two day new release rental
+                if ((each.Movie.PriceCode == KindOfMovie.NewRelease) &&
+                    each.DaysRented > 1) frequentRenterPoints ++;
                 //show figures for this rental
                 result += "\t" + each.Movie.Title + "\t" +
                           thisAmount + "\n";
